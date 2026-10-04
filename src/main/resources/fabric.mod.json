@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "emote_wheel",
+	"version": "${version}",
+	"name": "Emote Wheel",
+	"description": "A Fortnite-style emote wheel with 180+ emotes and poses, a customizable wheel, favorites, and rebindable keys. Install it on a server as well and other players with the mod can see your emotes.",
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [ "com.example.emotewheel.EmoteWheelMod" ],
+		"client": [ "com.example.emotewheel.client.EmoteWheelClient" ]
+	},
+	"mixins": [ "emote_wheel.client.mixins.json" ],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
