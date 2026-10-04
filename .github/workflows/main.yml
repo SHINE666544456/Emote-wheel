@@ -1,0 +1,7 @@
+cd emote-wheel
+git init
+git add .
+git commit -m "Emote Wheel"
+git branch -M main
+git remote add origin https://github.com/YOURNAME/emote-wheel.git
+git push -u origin main
